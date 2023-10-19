@@ -29,9 +29,9 @@ function calc() {
 
   //outbut
   let Total = (outsalry.innerHTML = Math.round(total * 100) / 100);
-  let Snty = (volume.innerHTML = sntyMetr);
+  let Snty = (volume.innerHTML = sntyMetr.toPrecision(3));
   let Reng = (outNumber.innerHTML = Math.round(reng * 100) / 100);
-  let Totalreng = (outVolume.innerHTML = totalReng);
+  let Totalreng = (outVolume.innerHTML = totalReng.toPrecision(3));
   let TotalS = (outS.innerHTML = Math.round(totalS * 100) / 100);
 
   console.log(total);
