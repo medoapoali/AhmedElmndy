@@ -44,20 +44,14 @@ function calc() {
   let Reng = (outNumber.innerHTML = Math.round(reng * 100) / 100);
   let Totalreng = (outVolume.innerHTML = totalReng.toPrecision(3));
   let TotalS = (outS.innerHTML = Math.round(totalS * 100) / 100);
-
 }
-// calc();
+
 clic.onclick = function () {
   totaldiv.style.display = "none";
   // Reset output values
   if (totaldiv.style.display === "none") {
     totaldiv.style.display = "block";
     calc();
-    Total;
-    Snty;
-    Reng;
-    Totalreng;
-    TotalS;
   } else {
     totaldiv.style.display = "none";
   }
